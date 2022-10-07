@@ -1,7 +1,40 @@
-# Vue 3 + Vite
+<p align="center">
+  <a href="https://tailwindcss.com/#gh-light-mode-only" target="_blank">
+    <img src="./.github/logo-light.svg" alt="Tailwind CSS" width="350" height="70">
+  </a>
+  <a href="https://tailwindcss.com/#gh-dark-mode-only" target="_blank">
+    <img src="./.github/logo-dark.svg" alt="Tailwind CSS" width="350" height="70">
+  </a>
+</p>
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+<p align="center">
+  A utility-first CSS framework for rapidly building custom user interfaces.
+</p>
 
-## Recommended IDE Setup
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+<p align="center">
+    <a href="https://github.com/tailwindlabs/tailwindcss/actions"><img src="https://img.shields.io/github/workflow/status/tailwindlabs/tailwindcss/Node.js%20CI" alt="Build Status"></a>
+    <a href="https://www.npmjs.com/package/tailwindcss"><img src="https://img.shields.io/npm/dt/tailwindcss.svg" alt="Total Downloads"></a>
+    <a href="https://github.com/tailwindcss/tailwindcss/releases"><img src="https://img.shields.io/npm/v/tailwindcss.svg" alt="Latest Release"></a>
+    <a href="https://github.com/tailwindcss/tailwindcss/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/tailwindcss.svg" alt="License"></a>
+</p>
+
+------
+
+## Documentation
+
+For full documentation, visit [tailwindcss.com](https://tailwindcss.com/).
+
+## Community
+
+For help, discussion about best practices, or any other conversation that would benefit from being searchable:
+
+[Discuss Tailwind CSS on GitHub](https://github.com/tailwindcss/tailwindcss/discussions)
+
+For casual chit-chat with others using the framework:
+
+[Join the Tailwind CSS Discord Server](https://discord.gg/7NF8GNe)
+
+## Contributing
+
+If you're interested in contributing to Tailwind CSS, please read our [contributing docs](https://github.com/tailwindcss/tailwindcss/blob/master/.github/CONTRIBUTING.md) **before submitting a pull request**.
