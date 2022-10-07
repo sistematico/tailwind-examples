@@ -1,7 +1,8 @@
 {
   "name": "tailwind-examples",
+  "author": "Lucas Saliés Brum <sistematico@gmail.com> (https://lucasbrum.net)",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
