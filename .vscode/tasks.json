@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "NPM Install",
+      "type": "npm",
+      "script": "install",
+      "problemMatcher": [],
+      "detail": "npm install",
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
+    },
+    {
+      "label": "NPM Dev",
+      "type": "npm",
+      "script": "dev",
+      "problemMatcher": [],
+      "detail": "pnpm dev",
+      "group": "none",
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+      "presentation": {
+        "reveal": "never",
+        "panel": "new"
+      }
+    },
+    {
+      "label": "NPM Build",
+      "type": "npm",
+      "script": "build",
+      "problemMatcher": [],
+      "detail": "pnpm build",
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
+    }
+  ]
+}

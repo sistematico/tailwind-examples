@@ -33,6 +33,8 @@ jobs:
 
       - name: Install pnpm
         uses: pnpm/action-setup@v2.2.2
+        with:
+          version: 7        
 
       - name: Install deps
         run: pnpm install
