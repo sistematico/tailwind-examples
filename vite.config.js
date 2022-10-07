@@ -7,8 +7,6 @@ export default defineConfig({
   base: process.env.MODE == 'production' ? '/tailwind-examples/' : '/',
   plugins: [vue()],
   resolve:{
-    alias:{
-      '@' : path.resolve(__dirname, './src')
-    },
+    alias:{'@' : path.resolve(__dirname, './src')},
   },
 })
