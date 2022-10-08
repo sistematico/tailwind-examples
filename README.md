@@ -28,6 +28,7 @@
 ### Referências
 
 - [Creative Tim](https://www.creative-tim.com/learning-lab/tailwind-starter-kit/documentation/vue/navbars)
+- [VueSchool](https://vueschool.io/articles/vuejs-tutorials/composing-layouts-with-vue-router/)
 
 ### Ajude
 
