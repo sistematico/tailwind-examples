@@ -2,6 +2,7 @@
 import { ref } from 'vue'
 
 let showMenu = ref(false)
+let showDropdown = ref(false)
 </script>
 <template>
   <nav class="sticky top-0 z-10 bg-base-300 p-3 mb-4">
@@ -9,7 +10,7 @@ let showMenu = ref(false)
       <div class="flex flex-col md:flex-row md:justify-between items-center">
         <div class="flex justify-between items-center w-full">
           <div class="flex flex-nowrap">
-            <router-link to="/" class="text-lg font-bold btn btn-ghost">
+            <router-link to="/" class="text-lg font-bold btn btn-ghost logo">
               <img src="/tailwind.png" alt="Tailwind Examples" class="h-10 mr-2">
               Tailwind Examples
             </router-link>
@@ -26,10 +27,10 @@ let showMenu = ref(false)
           <div class="flex items-stretch">
             <router-link to="/" class="btn btn-ghost rounded-btn">Início</router-link>
             <div class="dropdown dropdown-end">
-              <label tabindex="0" class="btn btn-ghost rounded-btn">Exemplos</label>
-              <ul tabindex="0" class="menu dropdown-content p-2 shadow bg-base-200 rounded-box w-40 mt-5">
-                <li><router-link to="/layouts">Layouts</router-link></li>
-                <li><router-link to="/components">Componentes</router-link></li>
+              <label tabindex="0" class="btn btn-ghost rounded-btn" @click="showDropdown = !showDropdown">Exemplos</label>
+              <ul tabindex="0" class="menu dropdown-content p-2 shadow bg-base-200 rounded-box w-40 mt-5" :class="{ 'hidden': !showDropdown }">
+                <li><router-link to="/layouts" @click="showDropdown = !showDropdown">Layouts</router-link></li>
+                <li><router-link to="/components" @click="showDropdown = !showDropdown">Componentes</router-link></li>
               </ul>
             </div>
             <router-link to="/about" class="btn btn-ghost rounded-btn">Sobre</router-link>
@@ -39,3 +40,8 @@ let showMenu = ref(false)
     </div><!-- Fim Container -->
   </nav>
 </template>
+<style scoped>
+a.router-link-active.router-link-exact-active:not(.logo) {
+  @apply text-amber-400 font-bold;
+}
+</style>

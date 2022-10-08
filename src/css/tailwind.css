@@ -22,11 +22,25 @@ body,
   flex: 1 0 auto;
 }
 
-.footer {
-  flex-shrink: 0;
+@layer base {
+  h1 {
+    @apply text-2xl font-bold;
+  }
+  h2 {
+    @apply text-xl font-bold;
+  }
+  h3 {
+    @apply text-lg font-bold;
+  }
 }
 
-.view {
+
+
+/* .footer {
+  flex-shrink: 0;
+} */
+
+/* .view {
   margin-bottom: 25px;
 }
 
@@ -34,4 +48,4 @@ body,
   .view {
     width: 100% !important;
   }
-}
+} */

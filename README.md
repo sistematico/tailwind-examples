@@ -13,8 +13,6 @@
   Um conjunto de layouts, componentes, boilerplates e starter kits para o TailwindCSS.
 </p>
 
-### 🤖 CI/CD
-
 <p align="center">
   <a href="https://github.com/sistematico/tailwind-examples/actions/workflows/cd.yml">
     <img src="https://github.com/sistematico/tailwind-examples/actions/workflows/pages.yml/badge.svg" alt="Build Status" height="20">
