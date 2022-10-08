@@ -5,7 +5,7 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },
-    { path: '/', name: 'home', component: () => import('../views/home.vue') },
+    { path: '/', name: 'home', component: () => import('../views/index.vue') },
     { path: '/all', name: 'all', component: () => import('../views/all.vue') },
     { path: '/layouts', name: 'layouts', component: () => import('../views/layouts.vue') },
     { path: '/components', name: 'components', component: () => import('../views/components.vue') },
