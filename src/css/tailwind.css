@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+body,
+#app {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
+}
+
+.view {
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 769px) {
+  .view {
+    width: 100% !important;
+  }
+}

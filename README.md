@@ -25,6 +25,10 @@
 
 [![Demo](https://img.shields.io/badge/Github-Pages-blue)](https://sistematico.github.io/tailwind-examples)
 
+### Referências
+
+- [Creative Tim](https://www.creative-tim.com/learning-lab/tailwind-starter-kit/documentation/vue/navbars)
+
 ### Ajude
 
 Se o meu trabalho foi útil de qualquer maneira, considere doar qualquer valor através do das seguintes plataformas:
