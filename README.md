@@ -19,6 +19,21 @@
   </a>
 </p>
 
+### 🧩 Dependências
+
+- [vue](https://vuejs.org) ^3.2.37
+- [vue-router](https://router.vuejs.org) 4
+- [vite](https://vitejs.dev) ^3.1.0
+- [@vitejs/plugin-vue](https://github.com/vitejs/vite/tree/main/packages/plugin-vue) ^3.1.0
+- [vite-plugin-pages](https://github.com/hannoeru/vite-plugin-pages) ^0.26.0
+- [vite-plugin-vue-layouts](https://github.com/JohnCampionJr/vite-plugin-vue-layouts) ^0.7.0
+- [vite-plugin-md](https://github.com/antfu/vite-plugin-md) ^0.20.4
+- [tailwindcss](https://tailwindcss.com/) ^3.1.8
+- [daisyui](https://daisyui.com/) ^2.31.0
+- [autoprefixer](https://github.com/postcss/autoprefixer) ^10.4.12
+- [postcss](https://github.com/postcss/postcss) ^8.4.17
+
+
 ### 🌍 Demo
 
 [![Demo](https://img.shields.io/badge/Github-Pages-blue)](https://sistematico.github.io/tailwind-examples)
