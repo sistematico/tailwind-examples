@@ -12,6 +12,7 @@
     "vue": "^3.2.37"
   },
   "devDependencies": {
+    "@catppuccin/tailwindcss": "^0.1.0",
     "@vitejs/plugin-vue": "^3.1.0",
     "autoprefixer": "^10.4.12",
     "postcss": "^8.4.17",
