@@ -1,0 +1,5 @@
+{
+  "npm.packageManager": "pnpm",
+  "task.allowAutomaticTasks": "on",
+  "css.lint.unknownAtRules": "ignore"
+}
