@@ -39,11 +39,13 @@
 
 ### Referências
 
-- [ThemesBerg](https://github.com/themesberg/landwind)
-- [Creative Tim](https://www.creative-tim.com/learning-lab/tailwind-starter-kit/documentation/vue/navbars)
+- ThemesBerg LandWind [Site](https://themesberg.com/product/tailwind-css/landing-page) [Github](https://github.com/themesberg/landwind)
+- Creative Tim Starter Kit [Site](https://www.creative-tim.com/learning-lab/tailwind-starter-kit/documentation/vue/navbars) [Github](https://github.com/creativetimofficial/tailwind-starter-kit)
 - [VueSchool](https://vueschool.io/articles/vuejs-tutorials/composing-layouts-with-vue-router/)
+- [Awesome TailwindCSS](https://github.com/aniftyco/awesome-tailwindcss)
+- Catppuccin [Pallete](https://github.com/catppuccin/catppuccin) [Tailwind Plugin](https://github.com/catppuccin/tailwindcss)
 
-### Ajude
+###  Ajude
 
 Se o meu trabalho foi útil de qualquer maneira, considere doar qualquer valor através do das seguintes plataformas:
 
