@@ -8,9 +8,13 @@ specifiers:
   tailwindcss: ^3.1.8
   vite: ^3.1.0
   vue: ^3.2.37
+  vue-router: '4'
+  vue3-lottie: ^2.3.0
 
 dependencies:
   vue: 3.2.40
+  vue-router: 4.1.5_vue@3.2.40
+  vue3-lottie: 2.3.0_vue@3.2.40
 
 devDependencies:
   '@catppuccin/tailwindcss': 0.1.0_postcss@8.4.17
@@ -142,6 +146,10 @@ packages:
     dependencies:
       '@vue/compiler-dom': 3.2.40
       '@vue/shared': 3.2.40
+
+  /@vue/devtools-api/6.4.4:
+    resolution: {integrity: sha512-Ku31WzpOV/8cruFaXaEZKF81WkNnvCSlBY4eOGtz5WMSdJvX1v1WWlSMGZeqUwPtQ27ZZz7B62erEMq8JDjcXw==}
+    dev: false
 
   /@vue/reactivity-transform/3.2.40:
     resolution: {integrity: sha512-HQUCVwEaacq6fGEsg2NUuGKIhUveMCjOk8jGHqLXPI2w6zFoPrlQhwWEaINTv5kkZDXKEnCijAp+4gNEHG03yw==}
@@ -629,6 +637,10 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
+  /lottie-web/5.9.6:
+    resolution: {integrity: sha512-JFs7KsHwflugH5qIXBpB4905yC1Sub2MZWtl/elvO/QC6qj1ApqbUZJyjzJseJUtVpgiDaXQLjBlIJGS7UUUXA==}
+    dev: false
+
   /magic-string/0.25.9:
     resolution: {integrity: sha512-RmF0AsMzgt25qzqqLc1+MbHmhdx0ojF2Fvs4XnOqz2ZOBXzzkEwc/dJQZCYHAn7v1jbVOjAZfK8msRn4BxO4VQ==}
     dependencies:
@@ -913,6 +925,15 @@ packages:
       fsevents: 2.3.2
     dev: true
 
+  /vue-router/4.1.5_vue@3.2.40:
+    resolution: {integrity: sha512-IsvoF5D2GQ/EGTs/Th4NQms9gd2NSqV+yylxIyp/OYp8xOwxmU8Kj/74E9DTSYAyH5LX7idVUngN3JSj1X4xcQ==}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      '@vue/devtools-api': 6.4.4
+      vue: 3.2.40
+    dev: false
+
   /vue/3.2.40:
     resolution: {integrity: sha512-1mGHulzUbl2Nk3pfvI5aXYYyJUs1nm4kyvuz38u4xlQkLUn1i2R7nDbI4TufECmY8v1qNBHYy62bCaM+3cHP2A==}
     dependencies:
@@ -921,6 +942,16 @@ packages:
       '@vue/runtime-dom': 3.2.40
       '@vue/server-renderer': 3.2.40_vue@3.2.40
       '@vue/shared': 3.2.40
+
+  /vue3-lottie/2.3.0_vue@3.2.40:
+    resolution: {integrity: sha512-pThHpAIxxvk9c5lJXyCgrIAUIy/Xn/XLETqW2yA+VIg5B+phjQkdxkTvRG60pq3zOZ9su2hee+HZgT9tWA+8Fw==}
+    engines: {node: '>=12'}
+    peerDependencies:
+      vue: ^3.2
+    dependencies:
+      lottie-web: 5.9.6
+      vue: 3.2.40
+    dev: false
 
   /xtend/4.0.2:
     resolution: {integrity: sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==}
