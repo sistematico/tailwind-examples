@@ -1,8 +1,5 @@
-import Home from '../views/home.vue'
-import NotFound from '../views/notfound.vue'
-
 export const routes = [
-  { path: '/', component: Home },
-  { path: '/:pathMatch(.*)*', component: NotFound }
+  { path: '/', component: () => import(/* webpackChunkName: "home" */ '../views/home.vue') },
+  { path: '/layouts', component: () => import(/* webpackChunkName: "layouts" */ '../views/layouts.vue') },
+  { path: '/:pathMatch(.*)*', component: () => import(/* webpackChunkName: "notfound" */ '../views/notfound.vue') }
 ]
-
